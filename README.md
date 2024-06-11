@@ -13,6 +13,14 @@ VHTest offers two benchmarks:
 - Yes/No Question (YNQ) Benchmark
 Details can be found in the 'benchmarks' folder.
 
+### Installation
+1, Clone this repository and navigate to VHTest folder
+```
+git clone https://github.com/wenhuang2000/VHTest.git
+cd VHTest
+```
+
+
 ## License
 
 Distributed under MIT License. See `LICENSE` for more information.
