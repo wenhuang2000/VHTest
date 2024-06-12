@@ -1,6 +1,7 @@
 # Visual Hallucinations of Multi-modal Large Language Models (2024 ACL Findings)
 
-![image](Illustrations/4_examples.png)
+![Teaser](Illustrations/4_examples.png)
+![Teaser](Illustrations/4_examples_appendix.png)
 
 ## Introduction
 
