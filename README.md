@@ -35,21 +35,23 @@ pip install -e .
 pip install flash-attn --no-build-isolation
 cd ..
 ```
+
 2. Evaluate LLaVA on OEQ version Benchmark
 To evaluate LLaVA on the OEQ version benchmark of VHTest, run
 ```
 python -m evaluation.LLaVA.llava_oeq_version --model-path PATH_TO_MODEL_EVALUATED --image-path PATH_TO_VHTEST_IMAGES --test-xlsx-path PATH_TO_VHTEST_QUESTION_TABLES --results-xlsx-path PATH_TO_SAVE_RESULTS
 ```
- For example,
+For example,
 ```
 python -m evaluation.LLaVA.llava_oeq_version --model-path "liuhaotian/llava-v1.5-13b" --image-path ./Benchmark/Images --test-xlsx-path ./Benchmark/OEQ_Benchmark --results-xlsx-path ./Results/llava-v1.5-13b/OEQ_Benchmark
 ```
+
 3. Evaluate LLaVA on YNQ version Benchmark
 To evaluate LLaVA on the YNQ version benchmark of VHTest, run
 ```
 python -m evaluation.LLaVA.llava_ynq_version --model-path PATH_TO_MODEL_EVALUATED --image-path PATH_TO_VHTEST_IMAGES --test-xlsx-path PATH_TO_VHTEST_QUESTION_TABLES --results-xlsx-path PATH_TO_SAVE_RESULTS
 ```
- For example,
+For example,
 ```
 python -m evaluation.LLaVA.llava_ynq_version --model-path "liuhaotian/llava-v1.5-13b" --image-path ./Benchmark/Images --test-xlsx-path ./Benchmark/YNQ_Benchmark --results-xlsx-path ./Results/llava-v1.5-13b/YNQ_Benchmark
 ```
