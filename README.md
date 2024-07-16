@@ -61,7 +61,7 @@ python -m evaluation.LLaVA.llava_ynq_version --model-path "liuhaotian/llava-v1.5
 
 ## License
 
-Distributed under Apache 2.0 License. See `LICENSE` for more information.
+Distributed under Apache License 2.0. See `LICENSE` for more information.
 
 ## Citation
 
