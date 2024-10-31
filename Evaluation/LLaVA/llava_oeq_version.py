@@ -105,8 +105,8 @@ def main(args):
                     df['LLaVA_bug_success'] = ''
 
                 for index, row in df.iterrows():
-                    image_file = os.path.join(image_base_path, row['image_path'])
-                    question = row['question']
+                    image_file = os.path.join(image_base_path, row['Image'])
+                    question = row['Question']
 
                     # Reset the conversation object for each iteration
                     conv = conv_templates[args.conv_mode].copy()
