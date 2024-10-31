@@ -122,7 +122,7 @@ def main(args):
                     df['yn_LLaVA_bug_success'] = ''
 
                 for index, row in df.iterrows():
-                    image_file = os.path.join(image_base_path, row['image_path'])
+                    image_file = os.path.join(image_base_path, row['Image'])
                     question = row['yes_or_no_question'] + " ONLY answer yes or no."
 
                     # Reset the conversation object for each iteration
